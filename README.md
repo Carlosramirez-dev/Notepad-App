@@ -1,4 +1,4 @@
-# vuetify-app
+# Notepat-app
 
 ## Project setup
 ```
