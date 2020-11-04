@@ -40,7 +40,7 @@
               <div>Whitsunday Island, Whitsunday Islands</div>
            </v-card-text>
           <v-card-actions>
-            <v-btn color="orange" text> Share </v-btn>
+            <v-btn color="orange" text @click="dialog = true"> Share </v-btn>
             <v-btn color="orange" text> Explore </v-btn>
           </v-card-actions>
         </v-card>
@@ -62,7 +62,7 @@
               <div>Whitsunday Island, Whitsunday Islands</div>
            </v-card-text>
           <v-card-actions>
-            <v-btn color="orange" text> Share </v-btn>
+            <v-btn color="orange" text @click="dialog = true"> Share </v-btn>
             <v-btn color="orange" text> Explore </v-btn>
           </v-card-actions>
         </v-card>
@@ -84,14 +84,14 @@
               <div>Whitsunday Island, Whitsunday Islands</div>
            </v-card-text>
           <v-card-actions>
-            <v-btn color="orange" text> Share </v-btn>
+            <v-btn color="orange" text @click="dialog = true"> Share </v-btn>
             <v-btn color="orange" text> Explore </v-btn>
           </v-card-actions>
         </v-card>
       </v-col>
     </v-row>
     <!-- Dialog -->
-    <v-dialog v-model="dialog" width="500">
+    <v-dialog v-model="dialog" width="500" persistent>
       <v-card>
         <v-card-title>Este es el titulo</v-card-title>
         <v-card-text>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
@@ -100,7 +100,7 @@
         <v-divider></v-divider>
         <v-card-actions>
           <v-spacer></v-spacer>
-          <v-btn color="blue" text>Close</v-btn>
+          <v-btn color="blue" text @click="dialog = false">Close</v-btn>
         </v-card-actions>
       </v-card>
     </v-dialog>
@@ -112,7 +112,12 @@
 export default {
   name: 'Home',
   components: {
-    HelloWorld
-  }
+   //
+  },
+  data() {
+    return {
+      dialog: false
+    }
+  },
 }
 </script>
