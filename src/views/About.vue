@@ -2,7 +2,7 @@
   <v-container>
       <v-row>
         <v-col align="center" cols="12">
-          <h1>Notepat App</h1>
+          <h1>Notepad App</h1>
         </v-col>
         <v-col align="justify" cols="12">
           <p>This is my first application built with vue Js and Vuetify, 
@@ -11,7 +11,7 @@
             The focus of this application is to have an album of the places you have visited throughout your life.</p>
         </v-col>
         <v-col align="center" cols="12">
-          <v-img
+          <v-img 
           src="../assets/vue-vuetify.jpeg"
           >
           </v-img>
@@ -19,3 +19,15 @@
       </v-row>
   </v-container>
 </template>
+
+<script>
+/**
+ * @copyright carlosramirezdev@gmail.com todos los derechos reservados
+ * @author carlosr.dev
+ * @description Seccion About
+ */
+
+export default {
+  name: 'About'
+}
+</script>

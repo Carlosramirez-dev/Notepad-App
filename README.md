@@ -1,4 +1,4 @@
-# Notepat-app
+# Notepad-app
 
 ## Project setup
 ```

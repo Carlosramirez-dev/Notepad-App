@@ -30,6 +30,12 @@
 </template>
 
 <script>
+/**
+ * @copyright carlosramirezdev@gmail.com todos los derechos reservados
+ * @author carlosr.dev
+ * @description Seccion Home
+ */
+
 export default {
   name: 'Home',
   components: {

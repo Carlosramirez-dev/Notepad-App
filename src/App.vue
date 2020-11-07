@@ -2,7 +2,7 @@
   <v-app> 
     <v-app-bar app color="info" dark>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
-        <v-toolbar-title>Notepat App</v-toolbar-title>
+        <v-toolbar-title>Notepad App</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn text @click="dialog_login = true">
         <span> Login </span>
@@ -166,11 +166,16 @@
     </v-dialog>
   </v-row>
     <!-- Fin Dialog -->
-
   </v-app>
 </template>
 
 <script>
+/**
+ * @copyright carlosramirezdev@gmail.com todos los derechos reservados
+ * @author carlosr.dev
+ * @description Notepad App
+ */
+
 export default {
   name: 'App',
 
