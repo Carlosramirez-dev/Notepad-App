@@ -31,8 +31,7 @@
 
 <script>
 /**
- * @copyright carlosramirezdev@gmail.com todos los derechos reservados
- * @author carlosr.dev
+ * @author carlosr.dev // carlosramirezdev@gmail.com
  * @description Seccion Home
  */
 
